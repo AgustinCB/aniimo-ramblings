@@ -38,42 +38,26 @@ When I speak about support Aniimo I am not referring only
 to the Support class, but to the group of Regen, Heal, 
 and Support classes all lumped together.
 
+## Contents
+
+- [TL;DR](#tldr)
+- [Splashable Aniimo](#splashable-aniimo)
+  - [Buffers](#buffers)
+  - [Healers](#healers)
+  - [Regen](#regen)
+  - [Breaker](#breaker)
+- [Elemental cores](#elemental-cores)
+  - [Dark](#dark)
+  - [Lightning](#lightning)
+  - [Wind](#wind)
+  - [Fire](#fire)
+  - [Water](#water)
+  - [Grass](#grass)
+- [What about items](#what-about-items)
+
 ## TL;DR
 
-### Splashable
-
-| Group | Aniimo | Role | Stat priority | Item |
-|---|---|---|---|---|
-| Buffers | Turbo (Prismana if possible) | Support | ATK | ferocious fang |
-| Buffers | Tromber | Support | ATK | ferocious fang |
-| Healers | Glacy (Prismana if possible) | Heal | HP | marching flask / miraculous fleece |
-| Healers | Gracewing | Heal | HP | marching flask / miraculous fleece |
-| Regen | Somniwing | Regen | REGEN | spirited feather |
-| Regen | Besauce | Regen | REGEN | spirited feather |
-| Break | Inferlupa | Break | BREAK, HP, defenses, ATK | gargantuan horn |
-
-### Elemental cores
-
-| Element | Aniimo | Role | Stat priority | Item |
-|---|---|---|---|---|
-| Dark | Prismana Turbo | Support | ATK | ferocious fang |
-| Dark | Ignitis | DPS | ATK, HP, defenses | crit items |
-| Dark | Stellarys | DPS | ATK | fission needle |
-| Dark | Inferlupa | Break | BREAK, HP, defenses, ATK | gargantuan horn |
-| Lightning | Luminelle | Support | ATK | ferocious fang |
-| Lightning | Fulmintis | DPS | ATK, HP, defenses | crit items |
-| Lightning | Blazen | Break | BREAK, HP, ATK, defenses | gargantuan horn |
-| Wind | Tromber | Support | ATK | ferocious fang |
-| Wind | Hypnyto | DPS | ATK, HP, defenses | crit items |
-| Wind | Helgon | Break | BREAK, HP, ATK, defenses | gargantuan horn |
-| Fire | Sparkelf | Support | ATK | ferocious fang |
-| Fire | Scorchhowl | DPS | ATK | explosive globes |
-| Fire | Squashel | Break | BREAK, HP, ATK, defenses | gargantuan horn |
-| Water | Panpanta | Break / pseudo-support | BREAK, HP, ATK, defenses | gargantuan horn |
-| Water | Sherro | DPS | ATK | capacitous battery |
-| Grass | Melloblum | Support | ATK | ferocious fang |
-| Grass | Leafy | Regen/Support | REGEN | spirited feather |
-| Grass | Irisalis | DPS | ATK | crit items |
+![What to Build TL;DR](/images/what-to-build-tldr.png)
 
 ## Splashable Aniimo
 

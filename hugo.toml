@@ -1,0 +1,29 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'Aniimo Ramblings'
+enableRobotsTXT = true
+
+[pagination]
+  pagerSize = 10
+
+[params]
+  description = 'Guides, tips and references for Aniimo.'
+
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+  [[menus.main]]
+    name = 'Guides'
+    pageRef = '/guides'
+    weight = 20
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.highlight]
+    noClasses = false
+
+[outputs]
+  home = ['html', 'rss']

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="in"
+                 name="Instance Name" start-page="_index.md">
+
+    <toc-element topic="_index.md"/>
+    <toc-element toc-title="guides">
+        <toc-element topic="what-to-build.md"/>
+        <toc-element topic="guides__index.md"/>
+    </toc-element>
+</instance-profile>

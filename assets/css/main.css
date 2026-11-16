@@ -1,0 +1,92 @@
+:root {
+  --bg: #11131a;
+  --fg: #e6e8ee;
+  --muted: #9aa3b2;
+  --accent: #7aa2f7;
+  --border: #242836;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.65;
+}
+
+.container {
+  width: min(100% - 2rem, 48rem);
+  margin-inline: auto;
+}
+
+a { color: var(--accent); }
+
+.site-header {
+  border-bottom: 1px solid var(--border);
+  padding: 1rem 0;
+}
+
+.site-header .container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.site-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.site-nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
+.site-nav a.active { text-decoration: underline; }
+
+main.container { padding: 2rem 0 3rem; }
+
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-list li {
+  border-bottom: 1px solid var(--border);
+  padding: 0.75rem 0;
+}
+
+.post-list time,
+.meta {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.aniimo-portrait {
+  height: 7rem;
+  width: auto;
+  vertical-align: bottom;
+  margin-right: 0.5rem;
+}
+
+pre {
+  background: #0b0d13;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  overflow-x: auto;
+  padding: 1rem;
+}
+
+code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 0.9rem;
+  padding: 1rem 0;
+}

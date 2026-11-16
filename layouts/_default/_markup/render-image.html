@@ -1,0 +1,5 @@
+{{- $src := .Destination -}}
+{{- if hasPrefix $src "/" -}}
+  {{- $src = path.Join (urls.Parse site.BaseURL).Path $src -}}
+{{- end -}}
+<img class="aniimo-portrait" src="{{ $src }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }} loading="lazy">

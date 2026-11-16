@@ -68,10 +68,10 @@ GitHub Pages actions on every push to `main` (and on manual dispatch).
 One-time setup in the repository:
 
 1. **Settings → Pages → Build and deployment → Source: GitHub Actions**.
-2. `hugo.toml`'s `baseURL` is currently `/` (no Pages URL set up yet). The
-   workflow passes the correct `--baseURL` from the Pages configuration
-   anyway, so this value only matters for local builds. Once the site has a
-   real URL, set it here (e.g. `https://USERNAME.github.io/aniiguides/`).
+2. `hugo.toml`'s `baseURL` is set to
+   `https://agustincb.github.io/aniimo-ramblings/`. The workflow passes the
+   correct `--baseURL` from the Pages configuration anyway, so this value
+   only matters for local builds.
 
 Using a custom domain? Add the domain in Settings → Pages and put the same
 value in `static/CNAME`, then update `baseURL` accordingly.

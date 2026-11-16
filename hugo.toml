@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://agustincb.github.io/aniimo-ramblings/'
 languageCode = 'en-us'
 title = 'Aniimo Ramblings'
 enableRobotsTXT = true

@@ -2,7 +2,7 @@
 title: "BREAK Melloblum"
 date: 2026-11-16
 description: "How to use Melloblum as a Grass break."
-draft: true
+draft: false
 ---
 
 ![Melloblum](/images/aniimo/melloblum.png)
